@@ -27,6 +27,9 @@ All usage of this AMSI provider will be in `C:\ProgramData\CaseyAMSI`
 
 **Will Persist with Reboot**
 
+
+![DetectedAndAllowed](https://user-images.githubusercontent.com/27497619/227823303-36cd973d-bc11-467c-ad58-a71e5babca75.jpeg)
+
 ## Register  AMSI Provider Blocking Mode
 
 **Requires elevated command prompt**
@@ -34,6 +37,9 @@ All usage of this AMSI provider will be in `C:\ProgramData\CaseyAMSI`
 `regsvr32.exe <PATHTODLL> /i:blocking`
 
 **Will Persist with Reboot**
+
+![DetectedAndBlocked](https://user-images.githubusercontent.com/27497619/227823366-c6e79fa7-4dba-4187-81d4-71f29169828d.jpeg)
+
 
 ## UnRegister AMSI Provider
 
@@ -83,6 +89,11 @@ Structure:
     "5_Data": "write-host catdogs"
 }
 ```
+![AMSI_Provider_Test](https://user-images.githubusercontent.com/27497619/227823420-02a83b4d-2d0a-466a-8892-52713c550b2f.jpeg)
+
+![AMSI_Block](https://user-images.githubusercontent.com/27497619/227823438-96d55ae0-1d5a-4710-9199-0bf83ddf2330.jpeg)
+
+![2023-03-19_21-59](https://user-images.githubusercontent.com/27497619/227823490-52b5dd19-f5ce-4061-bbaa-ccc543427a2f.jpeg)
 
 # Trace Logs
 
