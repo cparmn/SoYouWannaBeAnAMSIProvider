@@ -3,6 +3,13 @@ Simple AMSI Provider that can use yara rules to match and block content.
 
 *AMSI Provider Code is based on [Microsoft Sample AMSI provider](https://github.com/microsoft/windows-classic-samples/tree/main/Samples/AmsiProvider)*
 
+# Credits
+This Repo Utilizes
+ - [Yara](https://github.com/VirusTotal/yara)
+ - [nlohmann-JSON](https://github.com/nlohmann/json)
+ - [cpp-base64-2.rc.08](https://github.com/ReneNyffenegger/cpp-base64/)
+ - [Microsoft Sample AMSI provider](https://github.com/microsoft/windows-classic-samples/tree/main/Samples/AmsiProvider)
+
 
 # Introduction
 
