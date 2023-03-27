@@ -99,6 +99,15 @@ Structure:
 
 This AMSI provider also provides the following Trace Log Provider `0eb41778-68b3-4a08-8974-0788cbf094b4`
 
+## Currently Logs 
+
+ - App Name
+ - Content Name
+ - Content Size
+ - Session
+ - Content Data
+ 
+## Capturing
 In order to capture these events After AMSI provider is registered.
 
 **Requires elevated command prompt**
